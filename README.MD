@@ -34,6 +34,7 @@ chmod +x crear_proyecto_ds.sh
 ```
 
 ✍️ Futuras utilidades
+
 - Plantillas para notebooks de EDA
 
 - Scripts de validación y limpieza avanzada
@@ -44,9 +45,15 @@ chmod +x crear_proyecto_ds.sh
 
 - Scripts de despliegue o testing
 
+
 🧠 Autor
 
 Daniel Sánchez McCambridge
 
 Apasionado de la inteligencia artificial, el análisis de datos y la automatización.\n
 Actualmente desarrollando proyectos para portfolio y preparándome para entrevistas técnicas.
+
+
+📄 Licencia
+
+Este repositorio está disponible bajo la licencia MIT. Eres libre de usar, modificar y compartir cualquier utilidad, con el debido reconocimiento.
