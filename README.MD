@@ -33,6 +33,32 @@ chmod +x crear_proyecto_ds.sh
 ./crear_proyecto_ds.sh
 ```
 
+### 2. 🖥️ setup_wsl_terminal.sh – Mejora visual y funcional de la terminal en WSL
+
+Este script automatiza la configuración de un entorno de terminal moderno y funcional para WSL (Windows Subsystem for Linux), ideal para desarrolladores y científicos de datos que trabajan en entornos mixtos Windows/Linux.
+
+🔧 Funciones principales:
+
+- Instala el shell zsh y el gestor de configuración Oh My Zsh
+
+- Configura el tema visual Powerlevel10k, compatible con Git
+
+- Añade plugins de productividad:
+
+- zsh-autosuggestions (sugerencias de comandos)
+
+- zsh-syntax-highlighting (resaltado de sintaxis)
+
+- Actualiza automáticamente el archivo ~/.zshrc
+
+- Cambia tu shell predeterminado a zsh
+
+- Incluye mensajes informativos paso a paso
+
+✅ Resultado: una terminal bonita, informativa y productiva, con indicadores de estado Git directamente en el prompt, sugerencias inteligentes, y soporte para alias personalizados.
+
+📌 Requiere instalar la fuente MesloLGS NF en tu terminal para un renderizado óptimo del tema Powerlevel10k.
+
 ## ✍️ Futuras utilidades
 
 - Plantillas para notebooks de EDA

@@ -30,7 +30,7 @@ source venv/bin/activate
 
 # Instalar librerías comunes
 pip install --upgrade pip
-pip install pandas numpy matplotlib seaborn scikit-learn jupyterlab
+pip install pandas numpy matplotlib seaborn scikit-learn jupyterlab os time joblib typing glob pickle json
 
 # Guardar dependencias
 pip freeze > requirements.txt
@@ -43,7 +43,7 @@ cat <<EOF > .vscode/settings.json
 EOF
 
 # Crear notebook de analisis exploratorio de datos
-cat <<EOF > notebooks/EDA.ipynb
+cat <<EOF > notebooks/01_EDA.ipynb
 {
  "cells": [],
  "metadata": {},
@@ -53,7 +53,7 @@ cat <<EOF > notebooks/EDA.ipynb
 EOF
 
 # Crear notebook de preprocesamiento de datos
-cat <<EOF > notebooks/data_preprocessing.ipynb
+cat <<EOF > notebooks/02_data_preprocessing.ipynb
 {
  "cells": [],
  "metadata": {},
@@ -63,7 +63,7 @@ cat <<EOF > notebooks/data_preprocessing.ipynb
 EOF
 
 # Crear notebook de entrenamiento de modelos
-cat <<EOF > notebooks/model_training.ipynb
+cat <<EOF > notebooks/03_model_training.ipynb
 {
  "cells": [],
  "metadata": {},
@@ -73,7 +73,7 @@ cat <<EOF > notebooks/model_training.ipynb
 EOF
 
 # Crear notebook de evaluación de modelos
-cat <<EOF > notebooks/model_evaluation.ipynb
+cat <<EOF > notebooks/04_model_evaluation.ipynb
 {
  "cells": [],
  "metadata": {},
